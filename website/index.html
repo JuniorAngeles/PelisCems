@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PelisCems</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Hello=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilo-siguenos.css" />
+    <link rel="stylesheet" type="text/css" href="estilos-boton.css" />
+    <link rel="stylesheet" href="css/estilo-img.css" />
+    <link rel="stylesheet" href="css/estilos-bucador.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    
+		<script>
+			alert("Esta pagina se hizo con fines estudiantiles.");
+		</script> 
+  </head>
+  <body>
+    <!-- MENÚ -->
+    <header>
+      <div class="contenedor">
+        <h2 class="logotipo">PelisCems</h2>
+        <nav>
+          <a href="index.html" class="activo">Inicio</a>
+          <a href="agregar-pelicula.html">Insertar</a>
+          <a href="sobre-nosotros.html">Nosotros</a>
+        </nav>
+      </div>
+    </header>
+    <!-- REDES SOCIALES -->
+    <aside>
+      <div class="rrss">Síguenos en</div>
+      <div class="rrss-logos">
+        <a target="_blank" href="https://www.facebook.com/Pelis_Online-113952771321600/" class="facebook">f</a>
+        <a target="_blank" href="#" class="twitter">t</a>
+        <a
+          target="_blank"
+          href="https://www.instagram.com/invites/contact/?i=z49lonzrprre&utm_content=og029ar"
+          class="Instagram"
+          >ig</a
+        >
+      </div>
+    </aside>
+    <!-- BUSCADOR -->
+    <nav>
+      <section class="buscador">
+        <h1 class="titulo">Películas Disponible:</h1>
+        <div class="contenedor-buscador">
+          <input
+            type="text"
+            name="buscador"
+            id="buscador"
+            class="buscador-input"
+            placeholder="Buscar"
+            autocomplete="off"		
+          />
+        </div>
+      </section>
+    </nav>
+    <!-- GALERIA DE PELÍCULAS -->
+    <section class="portafolio">
+      <div class="contenedor">
+        <div class="galeria-port" id="listaDePeliculas">
+          <div class="loading" id="noHayPeliculas">Obteniendo películas...<br />Por favor, espere!</div>
+        </div>
+      </div>
+    </section>
+    <!-- DERECHOS DE AUTOR -->
+    <footer>
+      <div class="row mt-lg-2">
+        <div class="col text-center">
+          <strong>PelisOnline</strong>
+          <p>© 2022 PelisOnline. Todos los derechos reservados. Política de privacidad.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- JAVASCRIPT -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/script-siguenos.js"></script>
+    <script src="js/mostrar-peliculas.js"></script>
+  </body>
+</html>

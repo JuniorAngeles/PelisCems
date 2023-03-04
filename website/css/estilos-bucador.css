@@ -1,0 +1,37 @@
+section.buscador,
+section.contenedor {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 1200px;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+section.buscador h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  color: inherit;
+
+}
+
+.buscador-input {
+  border: 3px solid rgb(102, 0, 255);
+  border-bottom: 3px solid rgb(102, 0, 255);
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  width: 240px;
+  height: 50px;
+}
+
+.buscador-input:focus {
+  outline: none;
+}
+
+.buscador-input:placeholder-shown{
+ color:black;
+}

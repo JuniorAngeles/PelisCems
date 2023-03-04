@@ -1,0 +1,62 @@
+.contenedor {
+  display: block !important;
+  max-width: 900px !important;
+  margin: 0 auto;
+}
+
+.contenedor-menu {
+  display: flex !important;
+  width: 90% !important;
+  max-width: 100% !important;
+}
+
+.contenedor .form-group {
+  margin-bottom: 20px;
+}
+
+.contenedor h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+form input,
+form textarea,
+form select {
+  margin-bottom: 10px;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
