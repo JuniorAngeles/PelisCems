@@ -15,8 +15,8 @@ async function init() {
   const noHayPeliculas = document.getElementById("noHayPeliculas");
   let resultadoHTML = "";
 
-  console.log("Obteniendo datos de la base de datos");
-  console.log(data);
+  
+  
 
   data.forEach((pelicula) => {
     const template = /*html*/ `
