@@ -47,7 +47,7 @@ async function init() {
       .split(" ") // Separamos por espacios
       .join("") // Unimos todos los elementos en un solo texto
       .normalize("NFD") // quitar acentos
-      .replace(/[\u0300-\u036f]/g, "") // elimina acentos
+      .replace(/[\u0300-\u036f]/gu, "") // elimina acentos
       .replace(/[^a-zA-Z0-9]/g, "") // elimina caracteres especiales
       .replace(/\s+/g, ""); // elimina espacios
   };
