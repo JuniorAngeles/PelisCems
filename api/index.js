@@ -24,7 +24,7 @@ connection.connect(function (error) {
     return null;
   }
 
-  console.log("Se conecto a la base de datos: #" + connection.threadId);
+  
 });
 
 // Esto es para la seguridad de la aplicación
@@ -68,8 +68,8 @@ app.post("/", jsonParser, (req, res) => {
 app.delete("/id:", function (request, response) {
   connection.query("delete * from peliculas where id=?", (error, results) => {
     if (error) {
-      console.log("error al eliminar la pelicula");
-      console.log(error.stack);
+      
+      
       return null;
     }
     response.send(results);
@@ -78,5 +78,5 @@ app.delete("/id:", function (request, response) {
 
 // Esta función es la que hace que se ejecute la aplicación en http://localhost:3000/
 app.listen(port, () => {
-  console.log(`El servidor esta corriendo en la url: http://localhost:${port}`);
+  
 });

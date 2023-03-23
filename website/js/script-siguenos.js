@@ -14,8 +14,7 @@
 			  .then(
 			    function(res) {
 			      if (res.status !== 200) {
-			        console.log('Looks like there was a problem. Status Code: ' +
-			          res.status);
+			        
 			        return;
 			      }
 			    
@@ -25,12 +24,12 @@
 			    }
 			  )
 			  .catch(function(err) {
-			    console.log('Fetch Error :-S', err);
+			    
 			  });
 			}
             
            function iterar(datos){
-           console.log(datos); 
+            
            if(spinner.style.display === "inline-block") {spinner.style.display = "none";} 
 
                 content.innerHTML = ''
